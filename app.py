@@ -11,7 +11,7 @@ app = Flask(__name__, template_folder="pages")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config['SECRET_KEY'] = 'soFDSFSnajnwYajd138f1a9f4984@°ç°*:°*FGsef'
+app.config['SECRET_KEY'] = 'SECRET_KEY'
 app.config['DEBUG'] = True
 
 db = SQLAlchemy(app)
